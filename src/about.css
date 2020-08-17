@@ -1,0 +1,56 @@
+.allheadings{
+  color: #880E4F;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 30px;
+  margin-left: 8px;
+}
+
+.subheadings{
+color: #880E4F;
+font-size: 17px;
+}
+
+.contactuspara{
+line-height: 1.5rem;
+color: black !important;
+margin-bottom: 0px;
+font-size: 14px;
+margin : 10px 10px;
+text-align: justify;
+}
+
+.aboutdiv{
+  background-color: white;
+  margin-top: 100px;
+  position: absolute;
+  z-index: 1;
+  width: 600px;
+  margin-left: 7%;
+}
+
+.imageabout{
+  height: 550px;
+  width: 650px;
+  border: 10px solid black;
+  margin-left: 600px;
+  margin-bottom: 100px;
+}
+
+@media(max-width: 900px){
+  .imageabout{
+    display: none;
+  }
+  .aboutdiv{
+    margin-left: 0%;
+    width: auto;
+    position: relative;
+    margin-bottom: 100px;
+  }
+}
+
+@media(max-width:400px){
+  .allheadings{
+      font-size: 23px;
+  }
+}
